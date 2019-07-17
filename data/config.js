@@ -1,0 +1,35 @@
+module.exports = {
+	defaultTitle: 'Deep Lalwani - Portfolio',
+	logo: 'seo logo',
+	author: 'Deep Lalwani',
+	url: 'deeplalwani.com',
+	legalName: 'Deep Lalwani',
+	defaultDescription: 'SEO Description',
+	socialLinks: {
+		twitter: '',
+		github: 'https://github.com/lordlalwani',
+		linkedin: 'https://nz.linkedin.com/in/deeplalwani',
+		instagram: '',
+		youtube: '',
+		google: '',
+	},
+	googleAnalyticsID: 'UA-88875900-4',
+	themeColor: '#6b63ff',
+	backgroundColor: '#6b63ff',
+	social: {
+		facebook: 'appId',
+		twitter: '',
+	},
+	address: {
+		city: 'City',
+		region: 'Region',
+		country: 'Country',
+		zipCode: 'ZipCode',
+	},
+	contact: {
+		email: 'deepplalwani@hotmail.com',
+		phone: '0211619719',
+	},
+	foundingDate: '2018',
+	recaptcha_key: '6Lcs6lQUAAAAAEwhNH2IsobIe2csdda4TU3efpMN',
+}
