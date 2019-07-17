@@ -17,7 +17,7 @@ export const Footer = () => (
 							style={{ marginBottom: 0 }}
 							width="24"
 							src={gatsbyIcon}
-							alt={name}
+							alt={"Gatsby.js"}
 						/>{' '}
 					</span>
 					<p style={{ display: 'inline-block' }}>By Deep Lalwani</p>
