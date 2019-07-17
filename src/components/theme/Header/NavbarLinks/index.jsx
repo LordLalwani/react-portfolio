@@ -1,9 +1,10 @@
 import React from 'react'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
-import { Wrapper } from './styles'
+import { Wrapper, anchorFocus } from './styles'
 
 const NavbarLinks = ({ desktop }) => (
 	<Wrapper desktop={desktop}>
+		<AnchorLink style={anchorFocus}>Download CV</AnchorLink>
 		<AnchorLink href="#about">About</AnchorLink>
 		<AnchorLink href="#projects">Projects</AnchorLink>
 		<AnchorLink href="#contact">Contact</AnchorLink>

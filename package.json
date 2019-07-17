@@ -1,9 +1,9 @@
 {
   "name": "portfolio",
   "private": true,
-  "description": "A simple portfolio for developers",
+  "description": "Portfolio page",
   "version": "0.1.1",
-  "author": "Smakosh <ismai23l@hotmail.com>",
+  "author": "Deep <deepplalwani@hotmail.com>",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.0",
     "dotenv": "^6.2.0",
@@ -59,9 +59,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:smakosh/gatsby-portfolio-dev.git"
+    "url": "git@github.com:lordlalwanireact-portfolio.git"
   },
   "bugs": {
-    "url": "https://github.com/smakosh/gatsby-portfolio-dev/issues"
+    "url": "https://github.com/LordLalwani/react-portfolio/issues"
   }
 }
