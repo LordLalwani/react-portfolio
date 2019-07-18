@@ -35,8 +35,3 @@ export const Wrapper = styled.div`
 			}
 	`}
 `
-export const anchorFocus = {
-	borderRadius: '30px', 
-	padding: '10px 10px', 
-	border: '2px solid black',
-  };
