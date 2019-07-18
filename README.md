@@ -1,5 +1,10 @@
 # Deep Lalwani Portfolio Website
 
+## Project status
+In Progress
+
+TravisCI: [![Build Status](https://travis-ci.com/LordLalwani/react-portfolio.svg?branch=master)](https://travis-ci.com/LordLalwani/react-portfolio)
+
 ## Features
 
 - Eslint/Prettier configured
