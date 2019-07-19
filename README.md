@@ -5,7 +5,7 @@ In Progress!
 
 TravisCI: [![Build Status](https://travis-ci.com/LordLalwani/react-portfolio.svg?branch=master)](https://travis-ci.com/LordLalwani/react-portfolio)
 
-## Features
+## Features!
 
 - Eslint/Prettier configured
 - Desktop & mobile friendly 
