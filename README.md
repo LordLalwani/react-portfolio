@@ -1,55 +1,64 @@
-# Deep Lalwani Portfolio Website
 
-## Project status
-In Progress!
+# Deep Lalwani - Portfolio Website 
 
-TravisCI: [![Build Status](https://travis-ci.com/LordLalwani/react-portfolio.svg?branch=master)](https://travis-ci.com/LordLalwani/react-portfolio)
+## Build Status:
 
-## Features!
+[![Build Status](https://travis-ci.com/LordLalwani/react-portfolio.svg?branch=master)](https://travis-ci.com/LordLalwani/react-portfolio)
 
-- Eslint/Prettier configured
-- Desktop & mobile friendly 
+## Features:
+
+- Desktop & mobile friendly.
+
 - Contact form protected by Google Recaptcha
-- Use's Github & Linkdn API to pull data.
-- CI/CD configured with TravisCI
-- Deployed to AWS S3 & Configured with CloudFront
 
-## Design
+- Use's Graphql & Github API pull project data.
 
-COMING SOON
+- CI/CD configured with TravisCI.
 
-## Structure
+- Statically hosted on AWS S3.
 
-```bash
-.
-├── data
-│   └── config              # SEO related tags
-├── src
-│   ├── components          # Components
-│   │   │── common          # Common components
-│   │   │── landing         # Components used on the landing page
-│   │   └── theme           # Header & Footer
-│   └── pages               # Pages
-└── static                  # Icons, favicon & SVG illustrations
-```
+- Distributed with AWS Cloudfront.
 
-## Prerequisites
+## Configure The Project:
 
-[Yarn](https://yarnpkg.com/en/)
+### Setup keys & secrets:
+1) Please create a new file `.env.development` and put this env variable with your GitHub token
+	> If you're building for production, you will have to create a new file `.env.production` and put the same env variable
 
-Please create a new file `.env.development` and put this env variable with your GitHub token
+	```bash
 
-> If you're building for production, you will have to create a new file `.env.production` and put the same env variable
+	GITHUB_TOKEN=xxxxxxxxxx
 
-```bash
-GITHUB_TOKEN=xxxxxxxxxx
-```
+	```
 
-Don't forget to edit your site's data on `data/config.js` file with your Google Recaptcha public key
+2) Don't forget to edit your site's data on `data/config.js` file with your Google Recaptcha public key
+	```bash
 
-```bash
-SITE_RECAPTCHA_KEY=xxxxx
+	SITE_RECAPTCHA_KEY=xxxxx
 
-SITE_RECAPTCHA_SECRET=xxxxx
-```
+	SITE_RECAPTCHA_SECRET=xxxxx
 
+	```
+3) Configure your S3 bucket name and region inside the `.travis.yml` file.
+	```bash
+	language: node_js
+	node_js:
+	8.14.0
+	install: yarn
+	script: gatsby build
+	deploy:
+	 provider: s3
+	 access_key_id: $AWS_KEY
+	 secret_access_key: $AWS_SECRET
+	 bucket: 'xxxxxxxxxxxx'
+	 skip_cleanup: true
+	 acl: public_read
+	 local_dir: public
+	 region: "xxxxxxxxxxxxx"
+	```
+	>You will also have to create encrypted environment variables inside TravisCI for `AWS_KEY` & `AWS_SECRET`
+
+### Local development Environment: 
+1) Run `npm install` to install all packages & dependencies (this might take a few minutes)
+2) Run `gatsby develop` from the project root directory to start the local development server
+3) View the live project at [localhost:8000](localhost:8000)
