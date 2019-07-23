@@ -1,26 +1,14 @@
 [
   {
-    "id": 0,
-    "name": "Telegram",
-    "link": "populate-me",
-    "icon": "/icons/telegram.svg"
-  },
-  {
     "id": 1,
     "name": "Github",
-    "link": "populate-me",
+    "link": "https://github.com/LordLalwani",
     "icon": "/icons/github.svg"
   },
   {
     "id": 2,
-    "name": "StackOverflow",
-    "link": "populate-me",
-    "icon": "/icons/stackoverflow.svg"
-  },
-  {
-    "id": 3,
-    "name": "Twitter",
-    "link": "populate-me",
-    "icon": "/icons/twitter.svg"
+    "name": "Linkedin",
+    "link": "https://nz.linkedin.com/in/deeplalwani",
+    "icon": "/icons/linkedin.svg"
   }
 ]
