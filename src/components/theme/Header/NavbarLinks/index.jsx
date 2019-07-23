@@ -5,7 +5,7 @@ import { ButtonStyleTwo } from 'Common'
 
 const NavbarLinks = ({ desktop }) => (
 	<Wrapper desktop={desktop}>
-		<ButtonStyleTwo as={AnchorLink}> Download CV </ButtonStyleTwo>
+		{/* <ButtonStyleTwo as={AnchorLink}> Download CV </ButtonStyleTwo> */}
 		<AnchorLink href="#about">About</AnchorLink>
 		<AnchorLink href="#projects">Projects</AnchorLink>
 		<AnchorLink href="#contact">Contact</AnchorLink>
