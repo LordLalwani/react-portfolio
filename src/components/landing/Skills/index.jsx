@@ -11,13 +11,13 @@ export const Skills = () => (
 				<img src={dev} alt="I’m John and I’m a Backend & Devops engineer!" />
 			</Thumbnail>
 			<Details>
-				<h1>Hi There!</h1>
+				<h2>Skills & Technology</h2>
 				<p>
 					Lorem Ipsum is simply dummy text of the printing and typesetting
 					industry. Lorem Ipsum has been the industry’s standard dummy.
 				</p>
 				<Button as={AnchorLink} href="#contact">
-					Hire me
+					Get In Touch
 				</Button>
 			</Details>
 		</SkillsWrapper>
