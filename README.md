@@ -5,6 +5,8 @@
 
 [![Build Status](https://travis-ci.com/LordLalwani/react-portfolio.svg?branch=master)](https://travis-ci.com/LordLalwani/react-portfolio)
 
+Future Work & Progress: https://trello.com/b/9FuUSnRq/deeplalwani-gatsby-build
+
 ## Features:
 
 - Desktop & mobile friendly.
