@@ -118,8 +118,7 @@ export default withFormik({
           .join("&");
       };
     var dataObject = { name: name, email: email, message: message };
-    const API_URL =process.env.REACT_APP_CONTACT_FORM_API;
-      sendEmail(dataObject, API_URL);
+      sendEmail(dataObject);
       await setSubmitting(false);
       await setFieldValue("success", true);
       setTimeout(() => resetForm(), 10000);
@@ -130,7 +129,7 @@ export default withFormik({
     }
   }
 })(ContactForm);
-export function sendEmail(body, API_URL) {
+export function sendEmail(body) {
   return fetch(
     `${process.env.REACT_APP_CONTACT_FORM_API}`,
     {
