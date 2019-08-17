@@ -30,6 +30,6 @@ module.exports = {
 		email: 'deepplalwani@hotmail.com',
 		phone: '0211619719',
 	},
-	foundingDate: '2018',
-	recaptcha_key: '6Lcs6lQUAAAAAEwhNH2IsobIe2csdda4TU3efpMN',
+	foundingDate: '2019',
+	recaptcha_key: '6LeFz64UAAAAAE9HOHzR4QmBOYDDyYyclM7PwEgK',
 }
