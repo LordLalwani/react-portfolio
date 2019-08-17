@@ -43,6 +43,12 @@ module.exports = {
 			},
 		},
 		{
+			resolve: `gatsby-plugin-s3`,
+			options: {
+				bucketName: 'deeplalwani.com'
+			},
+		},
+		{
 			resolve: 'gatsby-plugin-google-analytics',
 			options: {
 				trackingId: config.googleAnalyticsID,

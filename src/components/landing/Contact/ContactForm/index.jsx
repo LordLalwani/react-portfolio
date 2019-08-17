@@ -132,7 +132,7 @@ export default withFormik({
 })(ContactForm);
 export function sendEmail(body, API_URL) {
   return fetch(
-    API_URL,
+    `${process.env.REACT_APP_CONTACT_FORM_API}`,
     {
       method: "POST",
       headers: {
