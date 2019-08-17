@@ -6,8 +6,6 @@ import { Button, Input } from "Common";
 import { recaptcha_key } from "Data";
 import { Error, Center, InputField } from "./styles";
 
-require('dotenv').config()
-
 const ContactForm = ({
   setFieldValue,
   isSubmitting,
@@ -120,7 +118,7 @@ export default withFormik({
           .join("&");
       };
     var dataObject = { name: name, email: email, message: message };
-    const API_URL = process.env.CONTACT_FORM_API;
+    const API_URL =process.env.REACT_APP_CONTACT_FORM_API;
       sendEmail(dataObject, API_URL);
       await setSubmitting(false);
       await setFieldValue("success", true);
