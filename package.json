@@ -6,7 +6,6 @@
   "author": "Deep <deepplalwani@hotmail.com>",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.0",
-    "dotenv": "^6.2.0",
     "formik": "^1.4.1",
     "fs": "0.0.1-security",
     "gatsby": "^2.8.6",
