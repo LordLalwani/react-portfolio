@@ -34,7 +34,7 @@ export const ButtonStyleTwo = styled.button`
 	cursor: pointer;
 	border-radius: 3px;
 	padding: 0.6rem 2.5rem;
-	margin: 0px 20px;
+	margin: 0px 0px;
 	border: none;
 	-webkit-appearance: none;
 	-webkit-touch-callout: none;
@@ -44,7 +44,7 @@ export const ButtonStyleTwo = styled.button`
 	-ms-user-select: none;
 	user-select: none;
 	color: #fff;
-	background: #51D28B;
+	background: #6c62ff;
 
 	&:focus {
 		outline: none;

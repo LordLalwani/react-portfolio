@@ -1,7 +1,7 @@
 import React from 'react'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import { Header } from 'Theme'
-import { Container, Button } from 'Common'
+import { Container, ButtonStyleTwo } from 'Common'
 import dev from 'Static/illustrations/dev.svg'
 import { Wrapper, IntroWrapper, Details, Thumbnail } from './styles'
 
@@ -11,10 +11,10 @@ export const Intro = () => (
 		<IntroWrapper as={Container}>
 			<Details>
 				<h1>Hi There!</h1>
-				<h4>I’m Deep Lalwani and I’m a Graduate Software engineer!</h4>
-				<Button as={AnchorLink} href="#contact">
+				<h4>I’m Deep Lalwani and I’m a Software engineer!</h4>
+				<ButtonStyleTwo as={AnchorLink} href="#contact">
 					Get In Touch
-				</Button>
+				</ButtonStyleTwo>
 			</Details>
 			<Thumbnail>
 				<img src={dev} />

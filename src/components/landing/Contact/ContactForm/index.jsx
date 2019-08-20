@@ -2,7 +2,7 @@ import React from "react";
 import { Form, withFormik, FastField, ErrorMessage } from "formik";
 import Recaptcha from "react-google-recaptcha";
 import * as Yup from "yup";
-import { Button, Input } from "Common";
+import { ButtonStyleTwo, Input } from "Common";
 import { recaptcha_key } from "Data";
 import { Error, Center, InputField } from "./styles";
 
@@ -81,9 +81,9 @@ const ContactForm = ({
       </InputField>
     )}
     <Center>
-      <Button secondary type="submit" disabled={isSubmitting}>
+      <ButtonStyleTwo secondary type="submit" disabled={isSubmitting}>
         Submit
-      </Button>
+      </ButtonStyleTwo>
     </Center>
   </Form>
 );
