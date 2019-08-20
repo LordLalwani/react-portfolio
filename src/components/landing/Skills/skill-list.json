@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "name": "JavaScript"
+  },
+  {
+    "id": 2,
+    "name": "HTML / CSS"
+  },
+  {
+    "id": 3,
+    "name": "TypeScript"
+  },
+  {
+    "id": 4,
+    "name": "React"
+  },
+  {
+    "id": 5,
+    "name": "Gatsby"
+  },
+  {
+    "id": 6,
+    "name": "AWS Lambda"
+  },
+  {
+    "id": 7,
+    "name": "AWS API-Gateway"
+  },
+  {
+    "id": 8,
+    "name": "AWS Route53"
+  },
+  {
+    "id": 9,
+    "name": "AWS CloudFront"
+  },
+  {
+    "id": 10,
+    "name": "GraphQL"
+  },
+  {
+    "id": 11,
+    "name": "Helm"
+  },
+  {
+    "id": 12,
+    "name": "Kubernetes"
+  },
+  {
+    "id": 13,
+    "name": "Docker"
+  },
+  {
+    "id": 14,
+    "name": "Ansible"
+  },
+  {
+    "id": 15,
+    "name": "CI / CD"
+  },
+  {
+    "id": 16,
+    "name": "Microservices"
+  }
+]
