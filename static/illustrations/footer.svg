@@ -2,15 +2,17 @@
   <defs>
     <style>
       .cls-1, .cls-2, .cls-3 {
-        fill: #efeeff;
+        fill: #fff7ee;
       }
 
       .cls-1 {
-        opacity: 0.401;
+        fill: #ed9906;
+        opacity: 0.901;
       }
 
       .cls-2 {
-        opacity: 0.217;
+        fill: #ed9906;
+        opacity: 0.617;
       }
     </style>
   </defs>

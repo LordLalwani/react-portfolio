@@ -1,7 +1,7 @@
 import React from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import { Container, ButtonStyleTwo, Card } from "Common";
-import dev from "Static/illustrations/skills.svg";
+import data from "Static/illustrations/data.svg";
 import skills from "./skill-list.json";
 import {
   Wrapper,
@@ -17,7 +17,7 @@ export const Skills = () => (
   <Wrapper id="about">
     <SkillsWrapper as={Container}>
       <Thumbnail>
-        <img src={dev} alt="I’m John and I’m a Backend & Devops engineer!" />
+        <img src={data} alt="" />
       </Thumbnail>
       <Details>
         <h3>Skills, technology & concepts I have experience in:</h3>
