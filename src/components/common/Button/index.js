@@ -44,7 +44,7 @@ export const ButtonStyleTwo = styled.button`
   -ms-user-select: none;
   user-select: none;
   color: #fff;
-  background: #6c62ff;
+  background: #ed9906;
 
   &:focus {
     outline: none;
@@ -73,7 +73,7 @@ export const ButtonStyleThree = styled.button`
   -ms-user-select: none;
   user-select: none;
   color: #fff;
-  background: #6c62ff;
+  background: #ed9906;
 
   &:focus {
     outline: none;
