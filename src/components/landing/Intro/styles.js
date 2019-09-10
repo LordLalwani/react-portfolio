@@ -42,6 +42,7 @@ export const Details = styled.div`
 		font-size: 32pt;
 		font-weight: normal;
 		color: #707070;
+		line-height: normal;
 
 		@media (max-width: 680px) {
 			font-size: 26pt;
