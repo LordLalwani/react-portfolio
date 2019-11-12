@@ -57,7 +57,23 @@ export const Thumbnail = styled.div`
 		width: 100%;
 	}
 
-	img {
+	@media only screen and (min-device-width: 960px) {
+		img {
+			width: 70%;
+			border-radius: 20px;
+			margin-left: 30%;
+		}
+	}
+
+	@media only screen and (min-device-width: 370px) and  (max-device-width: 960px) {
+		img {
+			width: 100%;
+			border-radius: 20px;
+			margin-left: 0%;
+		}
+	}
+
+	@media (min-width: 380px) {
 		width: 100%;
 	}
 `

@@ -2,7 +2,7 @@ import React from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import { Header } from "Theme";
 import { Container } from "Common";
-import dev from "Static/illustrations/dev2.svg";
+import dev from "Static/images/Landing.jpg";
 import { Wrapper, IntroWrapper, Details, Thumbnail } from "./styles";
 import TextLoop from "react-text-loop";
 

@@ -66,7 +66,7 @@ export const Item = styled.div`
 	:hover {
 		color: white;
 		div {
-			background-color: #ed9906;
+			background-color: #1818f6;
 		}
 	  }
 

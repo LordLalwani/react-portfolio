@@ -46,5 +46,6 @@ export const Thumbnail = styled.div`
 
 	img {
 		width: 100%;
+		border-radius: 20px;
 	}
 `
