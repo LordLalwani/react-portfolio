@@ -1,6 +1,6 @@
 import React from "react";
 import { Container } from "Common";
-import coffee from "Static/illustrations/coffee.svg";
+import coffee from "Static/images/contact.jpg";
 import { Wrapper, Details, Thumbnail } from "./styles";
 import ContactForm from "./ContactForm";
 

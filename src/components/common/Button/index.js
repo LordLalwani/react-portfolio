@@ -13,7 +13,7 @@ export const Button = styled.button`
   -ms-user-select: none;
   user-select: none;
   color: #fff;
-  background: #0074d9;
+  background: #1818f6;
 
   &:focus {
     outline: none;
@@ -32,7 +32,7 @@ export const Button = styled.button`
 
 export const ButtonStyleTwo = styled.button`
   cursor: pointer;
-  border-radius: 3px;
+  border-radius: 5px;
   padding: 0.6rem 2.5rem;
   margin: 0px 0px;
   border: none;
@@ -44,7 +44,7 @@ export const ButtonStyleTwo = styled.button`
   -ms-user-select: none;
   user-select: none;
   color: #fff;
-  background: #ed9906;
+  background: #1818f6;
 
   &:focus {
     outline: none;
@@ -61,7 +61,7 @@ export const ButtonStyleTwo = styled.button`
 
 export const ButtonStyleThree = styled.button`
   cursor: pointer;
-  border-radius: 3px;
+  border-radius: 5px;
   padding: 0.6rem 2.5rem;
   margin: 0px 0px;
   border: none;
@@ -73,7 +73,7 @@ export const ButtonStyleThree = styled.button`
   -ms-user-select: none;
   user-select: none;
   color: #fff;
-  background: #ed9906;
+  background: #1818f6;
 
   &:focus {
     outline: none;

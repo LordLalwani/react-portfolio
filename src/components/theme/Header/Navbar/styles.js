@@ -7,6 +7,9 @@ export const Wrapper = styled.div`
 	justify-content: space-between;
 
 	a {
+		font-family: 'Roboto', Helvetica, sans-serif;
+		font-weight: 550;
+		font-style: normal;
 		color: #212121;
 	}
 `
